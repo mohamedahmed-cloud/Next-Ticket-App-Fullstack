@@ -46,6 +46,7 @@ export default async function Home() {
                   <> 
                     <TicketCard 
                       key={ele._id}
+                      id={ele._id}
                       title={ele.title} 
                       description={ele.description} 
                       progress={ele.progress}

@@ -24,7 +24,7 @@ export default function Nav() {
             <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
           {/* </Tooltip> */}
         </Link>
-        <Link href="/TicketPage" className="text-white">
+        <Link href="/TicketPage/new" className="text-white">
           {/* <Tooltip
             content="Create Ticket"
             className="tooltip"

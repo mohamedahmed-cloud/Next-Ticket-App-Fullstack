@@ -1,6 +1,6 @@
 'use client'
 import React, {useRef, FormEvent, useState, useEffect } from 'react'
-import SendButton from "../(components)/SendButton"
+import SendButton from "../../(components)/SendButton"
 import { useRouter } from 'next/navigation';
 import {NextResponse} from 'next/server'
 import { Key } from "react";
@@ -39,7 +39,7 @@ export default function TicketPage() {
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // console.log(formData)
-        const res = await fetch('./api/Tickets', {
+        const res = await fetch('../api/Tickets', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
