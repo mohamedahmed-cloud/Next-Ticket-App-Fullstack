@@ -11,4 +11,4 @@
     npm run dev
 ```
 
-- [figma Desing](https://www.figma.com/file/FWSwTCTtoIOcsfNbFjYfEu/Ticket-app?type=design&node-id=0-1&mode=design&t=v52TbvoEPnsCiErz-0)
+- <a href="https://www.figma.com/file/FWSwTCTtoIOcsfNbFjYfEu/Ticket-app?type=design&node-id=0-1&mode=design&t=v52TbvoEPnsCiErz-0" target="_blank"></a>
