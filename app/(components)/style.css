@@ -6,7 +6,7 @@ nav svg {
 }
 
 .down-page {
-    height: calc(100vh - 60px) !important;
+    min-height: calc(100vh - 60px) !important;
 }
 input[type="range"],
 input[type="radio"]

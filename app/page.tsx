@@ -35,11 +35,11 @@ export default async function Home() {
 
 
     return (
-    <main>
+    <main className="mb-6">
       {category.map((parent: {_id: Key | null | undefined; title: string}) => (
         <div key={parent._id} className="flex flex-col">
             {ticketData.filter((ele: {category: string}) => ele.category === parent.title).length > 0 &&
-            <h2 className="mx-4 mt-5 underline underline-offset-8 text-4xl font-bold">{parent.title}</h2>}
+            <h2 className="mx-4 mt-8 underline underline-offset-8 text-4xl font-bold">{parent.title}</h2>}
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xlg:grid-cols-4 mx-4" >
               {ticketData.map((ele: { _id: Key | null | undefined; title: string; category: string; description: string; progress: number; status: string; priority: number, createdAt: Date }) => (
                 parent.title.toLowerCase() === ele.category.toLowerCase() && (
