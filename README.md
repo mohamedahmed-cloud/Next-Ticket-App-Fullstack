@@ -5,8 +5,10 @@
 
 - to start use, open terminal and paste them one it(make sure that nodejs is installed)
 ```sh
-    git clone https://github.com/mohamedahmed-cloud/Next-Ticket-App-Fullstack;
-    cd Next-Ticket-App-Fullstack;
-    npm install;
-    npm run dev;
+    git clone https://github.com/mohamedahmed-cloud/Next-Ticket-App-Fullstack
+    cd Next-Ticket-App-Fullstack
+    npm install
+    npm run dev
 ```
+
+- [figma Desing](https://www.figma.com/file/FWSwTCTtoIOcsfNbFjYfEu/Ticket-app?type=design&node-id=0-1&mode=design&t=v52TbvoEPnsCiErz-0)
