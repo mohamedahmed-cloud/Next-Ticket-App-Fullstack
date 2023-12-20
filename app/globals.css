@@ -20,7 +20,7 @@
     @apply my-2 block;
   }
   h1 {
-    @apply mb-5 font-bold text-3xl;
+    @apply mb-5 font-bold text-2xl;
   }
   .tooltip {
     @apply bg-toolcolor text-white py-2 px-4 rounded-md

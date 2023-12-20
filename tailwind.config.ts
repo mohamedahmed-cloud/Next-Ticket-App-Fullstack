@@ -20,7 +20,10 @@ const config: Config = {
         red: "#F53131",
         whitep: "#eee",
         dark:"#140F0F",
-        toolcolor:"#004D4E"
+        toolcolor:"#004D4E",
+        statusOrange:"#EEC121",
+        statusGreen:"#449528"
+
       },
     },
   },
